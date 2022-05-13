@@ -1,5 +1,9 @@
 package PracticaGit;
-
+/**
+ * Programa para ejecutar la clase calculadora
+ * @author LeslieEspino
+ * @version 1.0
+ */
 import java.util.Scanner;
 
 public class Main {
@@ -21,6 +25,8 @@ public class Main {
 		
 		System.out.println("La suma de "+x+" y de "+y+" es: "+calculadora.suma());
 		System.out.println("La resta de "+x+" y de "+y+" es: "+calculadora.resta());
+		System.out.println("La multiplicacion de "+x+" y de "+y+" es: "+calculadora.multiplicar());
+		System.out.println("La division de "+x+" y de "+y+" es: "+calculadora.dividir());
 
 	}
 
